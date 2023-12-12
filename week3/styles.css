@@ -1,5 +1,8 @@
-h1 {
+#introduction {
+	background-color: black;
 	color: green;
+	padding: 40px;
+	text-align: center;
 }
 
 .shell {
