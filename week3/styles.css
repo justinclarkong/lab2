@@ -11,8 +11,8 @@
 }
 
 footer {
-	background-color: grey;
-	color: white;
+	background-color: hsl(0, 0%, 70%);
+	color: black;
 	padding: 30px;
 	text-align: center;
 }
