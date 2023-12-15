@@ -1,5 +1,5 @@
 #introduction {
-	background-color: black;
+	background-color: hsl(0, 0%, 90%);
 	color: green;
 	padding: 40px;
 	text-align: center;
@@ -11,7 +11,7 @@
 }
 
 footer {
-	background-color: hsl(0, 0%, 70%);
+	background-color: hsl(0, 0%, 90%);
 	color: black;
 	padding: 30px;
 	text-align: center;
