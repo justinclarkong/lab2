@@ -17,11 +17,16 @@
 
 .shell {
 	background-color: black;
+	padding-left: 3px;
 	color: white; /* alternatively green? */
 }
 
 .center {
 	margin: auto;
+}
+
+body {
+	font: 16px monospace, monospace;
 }
 
 img {
