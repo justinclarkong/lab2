@@ -17,7 +17,9 @@
 img {
 	border-style: solid;
 	border-width: 5px;
-	border-color: grey;
+	border-color: white;
+	width: 30%;
+	float: left;
 }
 
 footer {
@@ -35,12 +37,23 @@ blockquote {
 	display: table;
 }
 
-table, th, td {
+td {
+	display: table-cell;
+	vertical-align: middle;
+	display: flex;
+}
+
+table, th {
 	border: 1px solid;
 	border-collapse: collapse;
 	margin: auto;
 }
 
+td {
+	border-top: 1px solid;
+}
+
 td p {
+	margin: auto;
 	text-align: center;
 }
