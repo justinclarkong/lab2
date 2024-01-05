@@ -1,0 +1,74 @@
+#introduction {
+	background-color: hsl(0, 0%, 90%);
+	color: green;
+	padding: 40px;
+	text-align: center;
+}
+
+.avatar {
+	border-radius: 50%;
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	max-width: 5%;
+	border-color: white;
+	border-width: 2px;
+}
+
+.shell {
+	background-color: black;
+	padding-left: 3px;
+	color: white; /* alternatively green? */
+}
+
+.center {
+	margin: auto;
+}
+
+body {
+	font: 16px monospace, monospace;
+}
+
+img {
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	width: 30%;
+	float: left;
+}
+
+footer {
+	background-color: hsl(0, 0%, 90%);
+	color: darkgreen;
+	padding: 30px;
+	text-align: center;
+}
+
+blockquote {
+	border-left: 5px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	width: auto;
+	display: table;
+}
+
+td {
+	display: table-cell;
+	vertical-align: middle;
+	display: flex;
+}
+
+table, th {
+	border: 1px solid;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+td {
+	border-top: 1px solid;
+}
+
+td p {
+	margin: auto;
+	text-align: center;
+}
