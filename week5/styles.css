@@ -3,12 +3,13 @@
 	color: green;
 	padding: 40px;
 	text-align: center;
+	margin-top: 0px;
 }
 
 .avatar {
 	border-radius: 50%;
 	position: absolute;
-	top: 30px;
+	top: 20px;
 	right: 20px;
 	max-width: 5%;
 	border-color: white;
@@ -17,7 +18,7 @@
 
 .shell {
 	background-color: black;
-	padding-left: 3px;
+	padding-left: 5px;
 	color: white; /* alternatively green? */
 }
 
@@ -26,7 +27,28 @@
 }
 
 body {
+	display: flex;
+	flex-direction: column;
 	font: 16px monospace, monospace;
+	min-height: 98dvh;
+}
+
+header {
+	flex-shrink: 1;
+}
+
+article {
+	flex-grow: 1;
+	padding-left: 4px;
+}
+
+footer {
+	background-color: hsl(0, 0%, 90%);
+	color: darkgreen;
+	padding: 30px;
+	text-align: center;
+	flex-shrink: 1;
+	margin-bottom: 0px;
 }
 
 img {
@@ -35,13 +57,6 @@ img {
 	border-color: white;
 	width: 30%;
 	float: left;
-}
-
-footer {
-	background-color: hsl(0, 0%, 90%);
-	color: darkgreen;
-	padding: 30px;
-	text-align: center;
 }
 
 blockquote {
