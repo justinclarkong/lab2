@@ -55,8 +55,8 @@ img {
 	border-style: solid;
 	border-width: 5px;
 	border-color: white;
-	width: 30%;
 	float: left;
+	max-width: 200px;
 }
 
 blockquote {
@@ -86,4 +86,5 @@ td {
 td p {
 	margin: auto;
 	text-align: center;
+	padding: 3vw;
 }
