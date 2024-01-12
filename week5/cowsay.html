@@ -21,9 +21,10 @@
 		<script src="scripts.js"></script>
 		<!--<script src="cowsay.js"></script>-->
 		<script type="text/javascript">
-			//if (document.getElementById("input").innerHTML == 
-			var text = "Moo!";
-			document.getElementById("output").innerHTML = (text == "Moo!");
+			if (document.getElementById("input").innerHTML.length == 0) {
+				var text = "Moo!";
+				document.getElementById("output").innerHTML = text;
+			}
 		</script>
 	</body>
 </html>
