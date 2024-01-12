@@ -14,15 +14,16 @@
 			<h1 id="introduction">Cowsay</h1>
 			<a href="./"><img class="avatar" src="id.jpg" alt="Home"></a>
 		</header>
-		<textarea placeholder="Moo!" id="Program"></textarea>
+		<textarea placeholder="Moo!" id="input"></textarea>
 		<input onclick="cowsay()" type="button" value="Say"/>
 		<span id="output"></span>
 		<footer><a href="./">Home</a><br>Source code available on <a href="https://github.com/justinclarkong/lab2/tree/main/week5">GitHub</a> &hearts;</footer>
 		<script src="scripts.js"></script>
 		<!--<script src="cowsay.js"></script>-->
 		<script type="text/javascript">
+			//if (document.getElementById("input").innerHTML == 
 			var text = "Moo!";
-			document.getElementById("output").innerHTML = text;
+			document.getElementById("output").innerHTML = (text == "Moo!");
 		</script>
 	</body>
 </html>
