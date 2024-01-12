@@ -88,3 +88,9 @@ td p {
 	text-align: center;
 	padding: 3vw;
 }
+
+#cowsay {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
