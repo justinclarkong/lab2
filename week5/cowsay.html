@@ -15,7 +15,7 @@
 			<a href="./"><img class="avatar" src="id.jpg" alt="Home"></a>
 		</header>
 		<textarea placeholder="Moo!" id="input"></textarea>
-		<input onclick="cow.say()" type="button" value="Say"/>
+		<input onclick="cow.say()" id="say" type="button" value="Say"/>
 <pre style="margin: auto;">
  ______
 &lt; <span id="output"></span> &gt;
@@ -28,17 +28,11 @@
 </pre>
 		<footer><a href="./">Home</a><br>Source code available on <a href="https://github.com/justinclarkong/lab2/tree/main/week5">GitHub</a> &hearts;</footer>
 		<script src="scripts.js"></script>
-		<script type="text/javascript">
-			const cow = {
-				say: function(text = document.getElementById("input").value) {
-					if (text == "")
-						text = "Moo!";
-				
-					document.getElementById("output").innerHTML = text;
-				}
-			};
-
+		<script type="module">
+			import {cow} from "./cowsay.js";
 			cow.say();
+		</script>
+		<script type="text/javascript">
 		</script>
 	</body>
 </html>
