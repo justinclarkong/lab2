@@ -17,7 +17,7 @@
 		</header>
 
 		<div class="shell">
-			<p>$ base64 -d &lt;&lt;&lt; SGksIEknbSBKdXN0aW4hCg==<br>Hi, I'm Justin!</p>
+			<p>$ base64 -d &lt;&lt;&lt; SGksIEknbSBKdXN0aW4hCg==<br><?php echo base64_decode("SGksIEknbSBKdXN0aW4hCg==")?></p>
 		</div>
 
 		<article>
