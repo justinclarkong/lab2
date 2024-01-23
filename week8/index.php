@@ -92,8 +92,8 @@ echo "<p>$ base64 -d &lt;&lt;&lt; " . base64_encode($str . "\n") . "<br>" . $str
 		<input type="text" name="urlencode" id="urlencode">
 		<input type="button" value="URL Encode" onclick="urlencode()">
 		<div id="encodingresult"></div>
-		<footer><a href="resources.html">Resources</a><br>Source code available on <a href="https://github.com/justinclarkong/lab2/tree/main/week5" target="_blank">GitHub</a> &hearts;</footer>
+		<footer><a href="resources.php">Resources</a><br>Source code available on <a href="https://github.com/justinclarkong/lab2/tree/main/week8" target="_blank">GitHub</a> &hearts;</footer>
 		<script src="scripts.js"></script>
-		<a id="cowsay" href="cowsay.html">&#128004;&#128172;</a>
+		<a id="cowsay" href="cowsay.php">&#128004;&#128172;</a>
         </body>
 </html>
