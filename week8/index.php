@@ -18,7 +18,7 @@
 
 		<div class="shell">
 <?php
-$str = "Hi, I'm Justin!";
+$str = (string) "Hi, I'm Justin!";
 echo "<p>$ base64 -d &lt;&lt;&lt; " . base64_encode($str . "\n") . "<br>" . $str . "</p>"
 ?>
 		</div>
