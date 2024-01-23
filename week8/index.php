@@ -17,8 +17,10 @@
 		</header>
 
 		<div class="shell">
-			<?php $str = "Hi, I'm Justin!" ?>
-			<p>$ base64 -d &lt;&lt;&lt; SGksIEknbSBKdXN0aW4hCg==<br><?php echo $str?></p>
+<?php
+$str = "Hi, I'm Justin!";
+echo "<p>$ base64 -d &lt;&lt;&lt; " . base64_encode($str) . "<br>" . $str . "</p>"
+?>
 		</div>
 
 		<article>
