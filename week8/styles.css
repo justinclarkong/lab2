@@ -94,3 +94,7 @@ td p {
 	bottom: 20px;
 	right: 20px;
 }
+
+.error {
+	color: #FF0000;
+}
