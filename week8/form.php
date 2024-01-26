@@ -16,7 +16,7 @@
 			<a href="./"><img class="avatar" src="id.jpg" alt="Home"></a>
 		</header>
 
-<article>
+<article class="center">
 <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
