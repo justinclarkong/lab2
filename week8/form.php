@@ -108,6 +108,7 @@ echo "<br>";
 echo $comment;
 echo "<br>";
 echo $gender;
+echo "<br>";
 
 //$servername = "localhost";
 //$username = "root";
