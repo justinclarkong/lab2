@@ -1,4 +1,23 @@
- <?php
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Justin Clark Ong">
+		<meta name="description" content="All about me!">
+		<title>Form</title>
+		<link href="favicon.ico" rel=icon>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+		<header>
+			<h1 id="introduction">Form</h1>
+			<a href="./"><img class="avatar" src="id.jpg" alt="Home"></a>
+		</header>
+
+<article class="center">
+<?php
 $servername = "localhost";
 $username = "webprogmi222_sf221";
 $password = "xE*Y2nleNVvZm[!!";
@@ -24,3 +43,8 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
+</article>
+		<footer><a href="./">Home</a><br>Source code available on <a href="https://github.com/justinclarkong/lab2/tree/main/week5">GitHub</a> &hearts;</footer>
+		<script src="scripts.js"></script>
+	</body>
+</html>
