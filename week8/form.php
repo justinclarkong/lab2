@@ -108,15 +108,7 @@ echo "<br>";
 echo $comment;
 echo "<br>";
 echo $gender;
-?>
-</article>
 
-		<footer><a href="./">Home</a><br>Source code available on <a href="https://github.com/justinclarkong/lab2/tree/main/week5">GitHub</a> &hearts;</footer>
-		<script src="scripts.js"></script>
-	</body>
-</html>
-
- <?php
 //$servername = "localhost";
 //$username = "root";
 //$password = "";
@@ -145,3 +137,9 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+</article>
+
+		<footer><a href="./">Home</a><br>Source code available on <a href="https://github.com/justinclarkong/lab2/tree/main/week5">GitHub</a> &hearts;</footer>
+		<script src="scripts.js"></script>
+	</body>
+</html>
