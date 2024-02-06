@@ -24,7 +24,7 @@ echo "<p>$ base64 -d &lt;&lt;&lt; " . base64_encode($str . "\n") . "<br>" . $str
 		</div>
 
 		<article>
-                	<p>I'm an APC student enrolled in BSCS-SF221.</p>
+			<p>I'm an APC student enrolled in BSCS-SF221.</p>
 			<p>I chose this course because I love working with computers!</p>
 			<p>I also spend my time:</p>
 			<ul>

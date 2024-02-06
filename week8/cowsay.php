@@ -26,7 +26,7 @@
                 ||----w |
                 ||     ||
 </pre>
-		<footer><a href="./">Home</a><br>Source code available on <a href="https://github.com/justinclarkong/lab2/tree/main/week5">GitHub</a> &hearts;</footer>
+		<footer><a href="./">Home</a><br>Source code available on <a href="https://github.com/justinclarkong/lab2/tree/main/week8">GitHub</a> &hearts;</footer>
 		<script src="scripts.js"></script>
 		<script type="module">
 			import {cow} from "./cowsay.js";
